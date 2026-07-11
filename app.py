@@ -167,10 +167,12 @@ if st.button("Generate"):
 # -----------------------------
 # FOOTER
 # -----------------------------
-st.markdown("---")
-st.caption("Capstone Project | AI Learning Buddy Hasini | Streamlit + Gemini")
+
 st.markdown("---")
 st.info(
     "Responsible AI Notice: AI-generated responses are intended for learning purposes only. "
     "They may occasionally contain inaccuracies. Please verify important information using trusted educational resources."
 )
+
+st.markdown("---")
+st.caption("Capstone Project | AI Learning Buddy Hasini | Streamlit + Gemini")
