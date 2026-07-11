@@ -4,9 +4,8 @@ import google.generativeai as genai
 # -----------------------------
 # CONFIGURE GEMINI
 # -----------------------------
-genai.configure(api_key="YOUR_API_KEY")
-
-model = genai.GenerativeModel("gemini-2.5-flash-lite")
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 # -----------------------------
 # PAGE SETTINGS
