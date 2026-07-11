@@ -10,7 +10,7 @@ with st.sidebar:
 
     st.markdown("---")
     st.write("Developer")
-    st.write("Hasini Doddigarla")
+    st.write("Doddigarla Hasini")
 
 
 # -----------------------------
