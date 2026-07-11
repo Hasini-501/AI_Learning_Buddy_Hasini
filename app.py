@@ -1,6 +1,18 @@
 import streamlit as st
 import google.generativeai as genai
 
+with st.sidebar:
+    st.header("About")
+    st.write(
+        "AI Learning Buddy helps learners understand concepts, view real-life examples, "
+        "generate quizzes, and ask questions using Google Gemini."
+    )
+
+    st.markdown("---")
+    st.write("Developer")
+    st.write("Hasini Doddigarla")
+
+
 # -----------------------------
 # CONFIGURE GEMINI
 # -----------------------------
